@@ -1,0 +1,11 @@
+sales:
+  reportInterval: 10
+  pauseInterval: 50
+  reportDenomination: pence #pound
+ 
+spring:
+  activemq:
+     in-memory: true
+     broker-url: vm://localhost:1230?broker.persistent=false&broker.useShutdownHook=false
+     pool:
+      enabled: false
